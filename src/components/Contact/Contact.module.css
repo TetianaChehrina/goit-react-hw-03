@@ -1,14 +1,14 @@
 .contact_container {
   display: flex;
   flex-direction: column;
-  /* max-width: 378px; */
+  max-width: auto;
   padding: 15px;
   border: 1px solid black;
 }
 
 .contact_name {
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   gap: 8px;
   margin-bottom: 8px;
 }
@@ -18,5 +18,6 @@
 }
 
 .contact_button_delete {
-  width: 82px;
+  width: 80px;
+  border: 1px solid rgb(68, 67, 67);
 }

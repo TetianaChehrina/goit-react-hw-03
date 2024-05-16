@@ -22,7 +22,7 @@ const ContactForm = ({ onAddContact }) => {
     onAddContact({
       id: nanoid(),
       name: values.name,
-      number: values.phone,
+      number: values.number,
     });
     actions.resetForm();
   };
